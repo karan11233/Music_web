@@ -1,0 +1,105 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Guitar Fundamentals",
+        "slug": "guitar-fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "data:image/jpeg;base64,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" 
+      },
+      {
+        "id": 2,
+        "title": "Piano for Beginners",
+        "slug": "piano-for-beginners",
+        "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
+        "price": 109.99,
+        "instructor": "Jane Smith",
+        "isFeatured": false,
+        "image": "/courses/piano.jpg" 
+      },
+      {
+        "id": 3,
+        "title": "Advanced Vocal Techniques",
+        "slug": "advanced-vocal-techniques",
+        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
+        "price": 119.99,
+        "instructor": "Emily Johnson",
+        "isFeatured": true,
+        "image": "/courses/vocalist.jpg" 
+      },
+      {
+        "id": 4,
+        "title": "Drumming Mastery",
+        "slug": "drumming-mastery",
+        "description": "Master the drums with our comprehensive course covering all skill levels.",
+        "price": 129.99,
+        "instructor": "Mike Brown",
+        "isFeatured": false,
+        "image": "/courses/drumming.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Jazz Improvisation",
+        "slug": "jazz-improvisation",
+        "description": "Learn the art of jazz improvisation with this course designed for all levels.",
+        "price": 139.99,
+        "instructor": "Chris Davis",
+        "isFeatured": false,
+        "image": "/courses/jazz.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Music Production Fundamentals",
+        "slug": "music-production-fundamentals",
+        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
+        "price": 149.99,
+        "instructor": "Alex Wilson",
+        "isFeatured": true,
+        "image": "/courses/music-prod.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Songwriting Essentials",
+        "slug": "songwriting-essentials",
+        "description": "Learn the essentials of songwriting to express your musical creativity.",
+        "price": 159.99,
+        "instructor": "Samantha Miller",
+        "isFeatured": false,
+        "image": "/courses/song-writing.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Electronic Music Production",
+        "slug": "electronic-music-production",
+        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
+        "price": 169.99,
+        "instructor": "Luke Harris",
+        "isFeatured": true,
+        "image": "/courses/music-prod.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Classical Music History",
+        "slug": "classical-music-history",
+        "description": "Explore the rich history of classical music from its origins to the present day.",
+        "price": 179.99,
+        "instructor": "Grace Lee",
+        "isFeatured": false,
+        "image": "/courses/classical-music.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Blues Guitar Techniques",
+        "slug": "blues-guitar-techniques",
+        "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
+        "price": 189.99,
+        "instructor": "Ethan Moore",
+        "isFeatured": true,
+        "image": "/courses/blues.jpg"
+      }
+    ]
+  }
+  
