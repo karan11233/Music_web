@@ -11,7 +11,7 @@ export const StickyScroll = ({
   content: {
     title: string;
     description: string;
-    content?: React.ReactNode | unknown;
+    content?: React.ReactNode | null;
   }[];
   contentClassName?: string;
 }) => {
@@ -105,7 +105,7 @@ export const StickyScroll = ({
           contentClassName
         )}
       >
-        {content[activeCard].content ?? null}
+        {content[activeCard].content}
       </div>
     </motion.div>
   );
