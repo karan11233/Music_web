@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
       <footer className="bg-gray-900 text-gray-300 py-10">
@@ -15,11 +17,11 @@ export default function Footer() {
           <div>
             <h2 className="text-xl font-semibold text-white">Quick Links</h2>
             <ul className="mt-2 space-y-2 text-sm">
-              <li><a href="/" className="hover:text-white">Home</a></li>
-              <li><a href="/about" className="hover:text-white">About Us</a></li>
-              <li><a href="/contact" className="hover:text-white">Contact Us</a></li>
-              <li><a href="/blog" className="hover:text-white">Blog</a></li>
-              <li><a href="/privacy" className="hover:text-white">Privacy Policy</a></li>
+            <li><Link href="/" className="hover:text-white">Home</Link></li>
+            <li><Link href="/about" className="hover:text-white">About Us</Link></li>
+            <li><Link href="/contact" className="hover:text-white">Contact Us</Link></li>
+            <li><Link href="/blog" className="hover:text-white">Blog</Link></li>
+            <li><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></li>
             </ul>
           </div>
   
@@ -27,11 +29,11 @@ export default function Footer() {
           <div>
             <h2 className="text-xl font-semibold text-white">Music Categories</h2>
             <ul className="mt-2 space-y-2 text-sm">
-              <li><a href="/new-releases" className="hover:text-white">New Releases</a></li>
-              <li><a href="/top-charts" className="hover:text-white">Top Charts</a></li>
-              <li><a href="/playlists" className="hover:text-white">Playlists</a></li>
-              <li><a href="/genres" className="hover:text-white">Genres</a></li>
-              <li><a href="/artists" className="hover:text-white">Featured Artists</a></li>
+            <li><Link href="/new-releases" className="hover:text-white">New Releases</Link></li>
+            <li><Link href="/top-charts" className="hover:text-white">Top Charts</Link></li>
+            <li><Link href="/playlists" className="hover:text-white">Playlists</Link></li>
+            <li><Link href="/genres" className="hover:text-white">Genres</Link></li>
+            <li><Link href="/artists" className="hover:text-white">Featured Artists</Link></li>
             </ul>
           </div>
   
