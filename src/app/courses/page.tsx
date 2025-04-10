@@ -4,7 +4,7 @@ import Image from "next/image";
 import courseData from '@/data/music_courses.json'
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import Link from "next/link";
-import { title } from 'process';
+
 
 interface Course {
     id: number;
