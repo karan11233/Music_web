@@ -4,6 +4,7 @@ import WhyChooseUs from "@/components/WhyChooseUs"
 import Cards from "@/components/Cards"
 import Webinar from "@/components/Webinar"
 import Footer from "@/components/Footer"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <Cards />
     <Webinar/>
     <Footer/>
+    <SpeedInsights/>
     </main>
   )
 }
